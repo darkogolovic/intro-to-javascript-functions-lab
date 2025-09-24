@@ -198,19 +198,17 @@ Complete the exercise in the space below:
 
 function basicCalculator(operand1,operand2,operation){
     if(operation==='add'){
-        let result = operand1+operand2
-        
+        let result = operand1+operand2;
+        return result;
     }else if(operation==='subtract'){
-        let result = operand1-operand2
-        return result
+        let result = operand1-operand2;
+        return result;
     }else if(operation==='multiply'){
-        let result = operand1*operand2
-        return result
+        let result = operand1*operand2;
+        return result;
     }else if(result === 'divide'){
-        let result = operand1 / operand2
-        return result
-    }else {
-        return
+        let result = operand1 / operand2;
+        return result;
     }
 
     
